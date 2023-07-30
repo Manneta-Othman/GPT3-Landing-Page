@@ -1,0 +1,133 @@
+.gpt3-cta{
+    padding: 2rem;
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 11px;
+    background: var(--gradient-bar);
+}
+
+.gpt3-cta-content p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #030303;
+}
+
+.gpt3-cta-content h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.gpt3-cta-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.gpt3-cta-btn button{
+    min-width: 150px;
+    background: #000000;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .gpt3-cta{
+        padding: 1.5rem 2rem;
+    }
+
+    .gpt3-cta-content p{
+        font-size: 11px;
+        line-height: 28px;
+    }
+    
+    .gpt3-cta-content h3{
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .gpt3-cta-btn button{
+        min-width: 130px;
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0.5rem;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .gpt3-cta{
+        flex-direction: column;
+        padding: 1rem 1.5rem;
+        margin: 2rem;
+        align-items: flex-start;
+    }
+
+    .gpt3-cta-content p{
+        font-size: 10px;
+        line-height: 26px;
+    }
+    
+    .gpt3-cta-content h3{
+        font-size: 18px;
+        line-height: 34px;
+    }
+    
+    .gpt3-cta-btn{
+        margin: 1rem 0 0 0;
+    }
+
+    .gpt3-cta-btn button{
+        min-width: 110px;
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0.5rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+
+    .gpt3-cta-btn{
+        margin: 1rem 0 0;
+    }
+
+    .gpt3-cta-content p{
+        font-size: 9px;
+        line-height: 22px;
+    }
+    
+    .gpt3-cta-content h3{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .gpt3-cta-btn{
+        margin: .5rem 0 0 0;
+    }
+
+    .gpt3-cta-btn button{
+        min-width: 110px;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0.5rem;
+    }
+
+}
